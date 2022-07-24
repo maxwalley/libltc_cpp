@@ -9,12 +9,20 @@
 /* Begin PBXBuildFile section */
 		B738E010287E24EC00EAD71A /* Test.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B738E00E287E24EC00EAD71A /* Test.cpp */; };
 		B738E011287E24EC00EAD71A /* Test.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B738E00F287E24EC00EAD71A /* Test.hpp */; };
+		B7A805CF288C1CF400C70C53 /* LTCDecoder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B7A805CD288C1CF400C70C53 /* LTCDecoder.cpp */; };
+		B7A805D0288C1CF400C70C53 /* LTCDecoder.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B7A805CE288C1CF400C70C53 /* LTCDecoder.hpp */; };
+		B7A805D3288C1DE300C70C53 /* LTCFrame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B7A805D1288C1DE300C70C53 /* LTCFrame.cpp */; };
+		B7A805D4288C1DE300C70C53 /* LTCFrame.hpp in Headers */ = {isa = PBXBuildFile; fileRef = B7A805D2288C1DE300C70C53 /* LTCFrame.hpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B738E007287E24C300EAD71A /* liblibltc_cpp.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = liblibltc_cpp.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		B738E007287E24C300EAD71A /* libltc_cpp.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libltc_cpp.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		B738E00E287E24EC00EAD71A /* Test.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Test.cpp; path = ../Source/Test.cpp; sourceTree = "<group>"; };
 		B738E00F287E24EC00EAD71A /* Test.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = Test.hpp; path = ../Source/Test.hpp; sourceTree = "<group>"; };
+		B7A805CD288C1CF400C70C53 /* LTCDecoder.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = LTCDecoder.cpp; path = ../Source/LTCDecoder.cpp; sourceTree = "<group>"; };
+		B7A805CE288C1CF400C70C53 /* LTCDecoder.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = LTCDecoder.hpp; path = ../Source/LTCDecoder.hpp; sourceTree = "<group>"; };
+		B7A805D1288C1DE300C70C53 /* LTCFrame.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = LTCFrame.cpp; path = ../Source/LTCFrame.cpp; sourceTree = "<group>"; };
+		B7A805D2288C1DE300C70C53 /* LTCFrame.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; name = LTCFrame.hpp; path = ../Source/LTCFrame.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +39,10 @@
 		B738DFFE287E24C300EAD71A = {
 			isa = PBXGroup;
 			children = (
+				B7A805D2288C1DE300C70C53 /* LTCFrame.hpp */,
+				B7A805D1288C1DE300C70C53 /* LTCFrame.cpp */,
+				B7A805CE288C1CF400C70C53 /* LTCDecoder.hpp */,
+				B7A805CD288C1CF400C70C53 /* LTCDecoder.cpp */,
 				B738E00F287E24EC00EAD71A /* Test.hpp */,
 				B738E00E287E24EC00EAD71A /* Test.cpp */,
 				B738E008287E24C300EAD71A /* Products */,
@@ -40,7 +52,7 @@
 		B738E008287E24C300EAD71A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B738E007287E24C300EAD71A /* liblibltc_cpp.dylib */,
+				B738E007287E24C300EAD71A /* libltc_cpp.dylib */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -53,6 +65,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B738E011287E24EC00EAD71A /* Test.hpp in Headers */,
+				B7A805D0288C1CF400C70C53 /* LTCDecoder.hpp in Headers */,
+				B7A805D4288C1DE300C70C53 /* LTCFrame.hpp in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,7 +87,7 @@
 			);
 			name = libltc_cpp;
 			productName = libltc_cpp;
-			productReference = B738E007287E24C300EAD71A /* liblibltc_cpp.dylib */;
+			productReference = B738E007287E24C300EAD71A /* libltc_cpp.dylib */;
 			productType = "com.apple.product-type.library.dynamic";
 		};
 /* End PBXNativeTarget section */
@@ -113,6 +127,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7A805CF288C1CF400C70C53 /* LTCDecoder.cpp in Sources */,
+				B7A805D3288C1DE300C70C53 /* LTCFrame.cpp in Sources */,
 				B738E010287E24EC00EAD71A /* Test.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -237,7 +253,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
-				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_PREFIX = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -249,7 +265,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
-				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_PREFIX = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};

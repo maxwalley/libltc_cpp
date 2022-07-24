@@ -11,3 +11,13 @@ int multiply(int first, int second)
 {
     return first * second;
 }
+
+MyClass::MyClass()
+{
+    
+}
+
+int MyClass::getNum() const
+{
+    return 2;
+}
