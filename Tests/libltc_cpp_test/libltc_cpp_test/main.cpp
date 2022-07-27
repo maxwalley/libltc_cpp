@@ -6,13 +6,13 @@
 //
 
 #include <iostream>
-#include "Test.hpp"
+#include "LTCDecoder.hpp"
 
 int main(int argc, const char * argv[])
 {
-    MyClass test;
+    LTCDecoder decoder;
     
-    std::cout << test.getNum() << std::endl;
+    decoder.decode(nullptr, 1024);
     
     return 0;
 }

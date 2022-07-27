@@ -9,6 +9,7 @@
 
 #include "LTCFrame.hpp"
 #include <cmath>
+#include <iostream>
 
 class LTCDecoder
 {
@@ -22,5 +23,8 @@ private:
     //This buffer is used to hold frame data that is moved in between audio buffers
     std::bitset<80> overlapBuffer;
     
-    const std::bitset<16> syncWord = 0x3FFD;
+    static constexpr uint8_t syncWordSize = 16;
+    static constexpr std::bitset<syncWordSize> syncWord = 0x3FFD;
+    
+    static constexpr uint8_t numFloatBits = 32;
 };
