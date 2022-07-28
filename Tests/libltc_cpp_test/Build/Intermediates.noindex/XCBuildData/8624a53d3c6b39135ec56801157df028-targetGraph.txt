@@ -1,2 +1,0 @@
-Target dependency graph (1 target)
-libltc_cpp_test in libltc_cpp_test, no dependencies

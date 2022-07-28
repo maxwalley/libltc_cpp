@@ -16,7 +16,7 @@ class LTCDecoder
 public:
     LTCDecoder();
     
-    LTCFrame decode(const float* audio, uint64_t numSamples);
+    bool decode(const float* audio, uint64_t numSamples);
     
 private:
     

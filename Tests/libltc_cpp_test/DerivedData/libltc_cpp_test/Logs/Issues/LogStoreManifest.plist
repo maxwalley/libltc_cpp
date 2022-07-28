@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>2555705C-51A4-4801-872A-E772CE74A5FD</key>
+		<key>69CE9705-346A-42F1-99C1-C01352C95944</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.tool</string>
 			<key>fileName</key>
-			<string>2555705C-51A4-4801-872A-E772CE74A5FD.xcactivitylog</string>
+			<string>69CE9705-346A-42F1-99C1-C01352C95944.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -26,13 +26,13 @@
 			<key>signature</key>
 			<string>libltc_cpp_test-evrighikfxbajqcagefvheeyqznm</string>
 			<key>timeStartedRecording</key>
-			<real>680379526.17333198</real>
+			<real>680732603.91784298</real>
 			<key>timeStoppedRecording</key>
-			<real>680379526.51422596</real>
+			<real>680732604.44606495</real>
 			<key>title</key>
 			<string>Build target libltc_cpp_test</string>
 			<key>uniqueIdentifier</key>
-			<string>2555705C-51A4-4801-872A-E772CE74A5FD</string>
+			<string>69CE9705-346A-42F1-99C1-C01352C95944</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>

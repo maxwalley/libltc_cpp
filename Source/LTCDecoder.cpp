@@ -9,16 +9,16 @@
 
 LTCDecoder::LTCDecoder()
 {
-    assert(sizeof(float) == numFloatBits);
+    assert(sizeof(float) == numFloatBits / 8);
 }
 
-LTCFrame LTCDecoder::decode(const float* audio, uint64_t numSamples)
+bool LTCDecoder::decode(const float* audio, uint64_t numSamples)
 {
     if(numSamples > std::numeric_limits<uint64_t>::max() / 8)
     {
         assert(false);
         std::cout << "Too many samples per frame" << std::endl;
-        return LTCFrame();
+        return false;
     }
     
     //Look for the last sync word in the audio data
@@ -51,11 +51,11 @@ LTCFrame LTCDecoder::decode(const float* audio, uint64_t numSamples)
         
         if(comparisonBuffer == syncWord)
         {
-            std::cout << "Frame!" << std::endl;
+            return true;
         }
     }
     
     //If that doesnt work look for a sync word in the overlap between the overlap buffer and the audio buffer
     
-    return LTCFrame();
+    return false;
 }
