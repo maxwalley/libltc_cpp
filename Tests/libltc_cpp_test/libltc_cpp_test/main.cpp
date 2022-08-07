@@ -27,26 +27,69 @@ int main(int argc, const char** argv)
         return 1;
     }
     
-    LTCDecoder decoder;
-    
-    const int bufferSize = 1024;
+    constexpr int bufferSize = 1024;
     std::array<float, bufferSize> buffer;
     
-    for(int currentSample = 0; currentSample < numSamples; currentSample += bufferSize)
+    LTCDecoder decoder(48000.0, 25);
+    
+    for(uint64_t startSample = 0; startSample + bufferSize < numSamples; startSample += bufferSize)
     {
-        const int lastSample = std::min(numSamples, currentSample + bufferSize);
-        std::copy(audioFile.samples[0].begin() + currentSample, audioFile.samples[0].begin() + lastSample, buffer.begin());
+        uint64_t endSample = startSample + bufferSize;
         
-        if(int numPadding = lastSample - numSamples; numPadding > 0)
-        {
-            std::fill(buffer.begin() + numPadding, buffer.end(), 0.0f);
-        }
+        std::copy(audioFile.samples[0].cbegin() + startSample, audioFile.samples[0].cbegin() + endSample, buffer.begin());
         
-        if(decoder.decode(buffer.data(), buffer.size()))
+        if(decoder.decode(buffer.data(), bufferSize))
         {
-            std::cout << "Detected" << std::endl;
+            std::cout << "Frame" << std::endl;
         }
     }
+    
+    /*float sampleRate = 44100.0;
+    int frameRate = 25;
+    int maxSamplesPerBit = std::ceil(sampleRate / (80 * frameRate));
+    int minSamplesPerBit = std::floor(sampleRate / (80 * frameRate));
+    
+    bool currentPhase = false;
+    uint64_t phaseLength = 0;
+    uint64_t lastPhaseLength = 0;
+    
+    for(int sampleIndex = 0; sampleIndex < numSamples; ++sampleIndex)
+    {
+        const float currentSample = audioFile.samples[0][sampleIndex];
+        const bool samplePhase = currentSample >= 0.0f;
+        
+        if(sampleIndex == 0)
+        {
+            currentPhase = samplePhase;
+        }
+        else
+        {
+            if(samplePhase != currentPhase)
+            {
+                if(phaseLength == maxSamplesPerBit || phaseLength == minSamplesPerBit)
+                {
+                    std::cout << phaseLength << std::endl;
+                }
+                else if(phaseLength + lastPhaseLength == maxSamplesPerBit || phaseLength + lastPhaseLength == minSamplesPerBit)
+                {
+                    std::cout << phaseLength + lastPhaseLength << std::endl;
+                }
+                else
+                {
+                    //std::cout << "Bad" << std::endl;
+                    //assert(false);
+                }
+                
+                currentPhase = samplePhase;
+                lastPhaseLength = phaseLength;
+                phaseLength = 0;
+            }
+        }
+        
+        ++phaseLength;
+    }*/
+    
+    
     
     return 0;
 }

@@ -7,6 +7,6 @@
 
 #include "LTCDecoder.hpp"
 
-LTCDecoder::LTCDecoder()
+LTCDecoder::LTCDecoder(double sampleRate, uint8_t frameRate)  : biphaseDecoder(sampleRate, frameRate)
 {
 }

@@ -206,6 +206,7 @@
 				HEADER_SEARCH_PATHS = (
 					"\"$(SRCROOT)/../../Source\"",
 					"\"$(SRCROOT)/Dependencies/AudioFile-1.1.0\"",
+					"/Users/maxwalley/Downloads/libltc-master/src",
 				);
 				LD_RUNPATH_SEARCH_PATHS = "";
 				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/../../xcode/Build/Products/Release\"";
@@ -266,6 +267,7 @@
 				HEADER_SEARCH_PATHS = (
 					"\"$(SRCROOT)/../../Source\"",
 					"\"$(SRCROOT)/Dependencies/AudioFile-1.1.0\"",
+					"/Users/maxwalley/Downloads/libltc-master/src",
 				);
 				LD_RUNPATH_SEARCH_PATHS = "";
 				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/../../xcode/Build/Products/Release\"";
@@ -281,6 +283,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../../Source\"",
+					"\"$(SRCROOT)/Dependencies/AudioFile-1.1.0\"",
+				);
 				OTHER_LDFLAGS = "-lltc_cpp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -290,6 +296,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../../Source\"",
+					"\"$(SRCROOT)/Dependencies/AudioFile-1.1.0\"",
+				);
 				OTHER_LDFLAGS = "-lltc_cpp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

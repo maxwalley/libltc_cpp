@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>1199B389-A911-4A1E-98F3-A550CBE47048</key>
+		<key>07EBBAA4-6163-4B5F-BDCB-B5CFBCA96E71</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>1199B389-A911-4A1E-98F3-A550CBE47048.xcactivitylog</string>
+			<string>07EBBAA4-6163-4B5F-BDCB-B5CFBCA96E71.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -30,17 +30,17 @@
 			<key>schemeIdentifier-sharedScheme</key>
 			<integer>1</integer>
 			<key>signature</key>
-			<string>Build libltc_cpp_test</string>
+			<string>Clean libltc_cpp_test</string>
 			<key>timeStartedRecording</key>
-			<real>680732535.99584901</real>
+			<real>681597297.48850501</real>
 			<key>timeStoppedRecording</key>
-			<real>680732536.570104</real>
+			<real>681597297.52648103</real>
 			<key>title</key>
-			<string>Build libltc_cpp_test</string>
+			<string>Clean libltc_cpp_test</string>
 			<key>uniqueIdentifier</key>
-			<string>1199B389-A911-4A1E-98F3-A550CBE47048</string>
+			<string>07EBBAA4-6163-4B5F-BDCB-B5CFBCA96E71</string>
 		</dict>
-		<key>3460E2BA-AEE9-4CC5-BD6E-6D5CC7C49214</key>
+		<key>0A5397C7-13EB-46C5-BF8F-1148C6BFD817</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -49,13 +49,13 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>3460E2BA-AEE9-4CC5-BD6E-6D5CC7C49214.xcactivitylog</string>
+			<string>0A5397C7-13EB-46C5-BF8F-1148C6BFD817.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
-				<string>S</string>
+				<string>W</string>
 			</dict>
 			<key>schemeIdentifier-containerName</key>
 			<string>libltc_cpp_test project</string>
@@ -66,15 +66,15 @@
 			<key>signature</key>
 			<string>Build libltc_cpp_test</string>
 			<key>timeStartedRecording</key>
-			<real>680732557.70864403</real>
+			<real>681597110.39356601</real>
 			<key>timeStoppedRecording</key>
-			<real>680732558.35556602</real>
+			<real>681597110.993837</real>
 			<key>title</key>
 			<string>Build libltc_cpp_test</string>
 			<key>uniqueIdentifier</key>
-			<string>3460E2BA-AEE9-4CC5-BD6E-6D5CC7C49214</string>
+			<string>0A5397C7-13EB-46C5-BF8F-1148C6BFD817</string>
 		</dict>
-		<key>75934B5A-5167-4D15-AF80-F81873734704</key>
+		<key>0FDC3D86-B7B0-465E-A8A8-A1058B0EEC47</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -83,13 +83,13 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>75934B5A-5167-4D15-AF80-F81873734704.xcactivitylog</string>
+			<string>0FDC3D86-B7B0-465E-A8A8-A1058B0EEC47.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
-				<string>S</string>
+				<string>W</string>
 			</dict>
 			<key>schemeIdentifier-containerName</key>
 			<string>libltc_cpp_test project</string>
@@ -100,15 +100,15 @@
 			<key>signature</key>
 			<string>Build libltc_cpp_test</string>
 			<key>timeStartedRecording</key>
-			<real>680731963.21879005</real>
+			<real>681596316.76483798</real>
 			<key>timeStoppedRecording</key>
-			<real>680731963.857741</real>
+			<real>681596317.33541095</real>
 			<key>title</key>
 			<string>Build libltc_cpp_test</string>
 			<key>uniqueIdentifier</key>
-			<string>75934B5A-5167-4D15-AF80-F81873734704</string>
+			<string>0FDC3D86-B7B0-465E-A8A8-A1058B0EEC47</string>
 		</dict>
-		<key>76B4185A-47E4-4E42-888D-E52FB8A65558</key>
+		<key>186ED2AA-4119-4A24-9274-AAF335ACBB51</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -117,13 +117,13 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>76B4185A-47E4-4E42-888D-E52FB8A65558.xcactivitylog</string>
+			<string>186ED2AA-4119-4A24-9274-AAF335ACBB51.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
-				<string>S</string>
+				<string>E</string>
 			</dict>
 			<key>schemeIdentifier-containerName</key>
 			<string>libltc_cpp_test project</string>
@@ -134,15 +134,15 @@
 			<key>signature</key>
 			<string>Build libltc_cpp_test</string>
 			<key>timeStartedRecording</key>
-			<real>680732586.50083995</real>
+			<real>681596236.147825</real>
 			<key>timeStoppedRecording</key>
-			<real>680732587.06705296</real>
+			<real>681596236.18612504</real>
 			<key>title</key>
 			<string>Build libltc_cpp_test</string>
 			<key>uniqueIdentifier</key>
-			<string>76B4185A-47E4-4E42-888D-E52FB8A65558</string>
+			<string>186ED2AA-4119-4A24-9274-AAF335ACBB51</string>
 		</dict>
-		<key>C38E7F0E-E72C-4D75-A691-2A0B51EBEA40</key>
+		<key>2B7DA10B-3845-4834-B3D9-DAAB7F1F83BE</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -151,7 +151,143 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>C38E7F0E-E72C-4D75-A691-2A0B51EBEA40.xcactivitylog</string>
+			<string>2B7DA10B-3845-4834-B3D9-DAAB7F1F83BE.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>libltc_cpp_test project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>libltc_cpp_test</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build libltc_cpp_test</string>
+			<key>timeStartedRecording</key>
+			<real>681596098.97444701</real>
+			<key>timeStoppedRecording</key>
+			<real>681596099.34280598</real>
+			<key>title</key>
+			<string>Build libltc_cpp_test</string>
+			<key>uniqueIdentifier</key>
+			<string>2B7DA10B-3845-4834-B3D9-DAAB7F1F83BE</string>
+		</dict>
+		<key>382948A0-CA3A-4F4C-A912-EBAEC5FD3A8A</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>382948A0-CA3A-4F4C-A912-EBAEC5FD3A8A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>libltc_cpp_test project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>libltc_cpp_test</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build libltc_cpp_test</string>
+			<key>timeStartedRecording</key>
+			<real>681595679.19186103</real>
+			<key>timeStoppedRecording</key>
+			<real>681595679.80190206</real>
+			<key>title</key>
+			<string>Build libltc_cpp_test</string>
+			<key>uniqueIdentifier</key>
+			<string>382948A0-CA3A-4F4C-A912-EBAEC5FD3A8A</string>
+		</dict>
+		<key>3B92EA1F-0AFB-4ACD-A0E9-FFAEBEC8E5F2</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>3B92EA1F-0AFB-4ACD-A0E9-FFAEBEC8E5F2.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>libltc_cpp_test project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>libltc_cpp_test</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Clean libltc_cpp_test</string>
+			<key>timeStartedRecording</key>
+			<real>681597644.92162001</real>
+			<key>timeStoppedRecording</key>
+			<real>681597644.94788206</real>
+			<key>title</key>
+			<string>Clean libltc_cpp_test</string>
+			<key>uniqueIdentifier</key>
+			<string>3B92EA1F-0AFB-4ACD-A0E9-FFAEBEC8E5F2</string>
+		</dict>
+		<key>3E4415CB-C772-4713-9A1E-27CB607719CC</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>3E4415CB-C772-4713-9A1E-27CB607719CC.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>libltc_cpp_test project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>libltc_cpp_test</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Clean libltc_cpp_test</string>
+			<key>timeStartedRecording</key>
+			<real>681597439.55490398</real>
+			<key>timeStoppedRecording</key>
+			<real>681597439.58222902</real>
+			<key>title</key>
+			<string>Clean libltc_cpp_test</string>
+			<key>uniqueIdentifier</key>
+			<string>3E4415CB-C772-4713-9A1E-27CB607719CC</string>
+		</dict>
+		<key>46027D9E-42DC-4AFB-8F13-BD63CBE0FC22</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>46027D9E-42DC-4AFB-8F13-BD63CBE0FC22.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -168,13 +304,659 @@
 			<key>signature</key>
 			<string>Build libltc_cpp_test</string>
 			<key>timeStartedRecording</key>
-			<real>680732603.88752103</real>
+			<real>681595562.15311897</real>
 			<key>timeStoppedRecording</key>
-			<real>680732604.45047605</real>
+			<real>681595562.73769403</real>
 			<key>title</key>
 			<string>Build libltc_cpp_test</string>
 			<key>uniqueIdentifier</key>
-			<string>C38E7F0E-E72C-4D75-A691-2A0B51EBEA40</string>
+			<string>46027D9E-42DC-4AFB-8F13-BD63CBE0FC22</string>
+		</dict>
+		<key>4616D8BF-1282-425B-9725-BB9453B39FF6</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>4616D8BF-1282-425B-9725-BB9453B39FF6.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>libltc_cpp_test project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>libltc_cpp_test</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build libltc_cpp_test</string>
+			<key>timeStartedRecording</key>
+			<real>681597441.46289694</real>
+			<key>timeStoppedRecording</key>
+			<real>681597442.06472802</real>
+			<key>title</key>
+			<string>Build libltc_cpp_test</string>
+			<key>uniqueIdentifier</key>
+			<string>4616D8BF-1282-425B-9725-BB9453B39FF6</string>
+		</dict>
+		<key>48E12B35-7977-45CC-B090-F77BBDC8FA79</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>48E12B35-7977-45CC-B090-F77BBDC8FA79.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>libltc_cpp_test project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>libltc_cpp_test</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Clean libltc_cpp_test</string>
+			<key>timeStartedRecording</key>
+			<real>681597255.81793797</real>
+			<key>timeStoppedRecording</key>
+			<real>681597255.847664</real>
+			<key>title</key>
+			<string>Clean libltc_cpp_test</string>
+			<key>uniqueIdentifier</key>
+			<string>48E12B35-7977-45CC-B090-F77BBDC8FA79</string>
+		</dict>
+		<key>5218F376-A600-4DE9-97AA-1A0F1C633AEE</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>5218F376-A600-4DE9-97AA-1A0F1C633AEE.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>libltc_cpp_test project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>libltc_cpp_test</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Clean libltc_cpp_test</string>
+			<key>timeStartedRecording</key>
+			<real>681596242.84950101</real>
+			<key>timeStoppedRecording</key>
+			<real>681596242.88558698</real>
+			<key>title</key>
+			<string>Clean libltc_cpp_test</string>
+			<key>uniqueIdentifier</key>
+			<string>5218F376-A600-4DE9-97AA-1A0F1C633AEE</string>
+		</dict>
+		<key>5C2D52F2-44F7-405D-BADC-6C244DE5A3CB</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>5C2D52F2-44F7-405D-BADC-6C244DE5A3CB.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>libltc_cpp_test project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>libltc_cpp_test</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build libltc_cpp_test</string>
+			<key>timeStartedRecording</key>
+			<real>681596170.620502</real>
+			<key>timeStoppedRecording</key>
+			<real>681596170.66544402</real>
+			<key>title</key>
+			<string>Build libltc_cpp_test</string>
+			<key>uniqueIdentifier</key>
+			<string>5C2D52F2-44F7-405D-BADC-6C244DE5A3CB</string>
+		</dict>
+		<key>5EB6787F-B819-4D4A-B56D-EF1859753D51</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>5EB6787F-B819-4D4A-B56D-EF1859753D51.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>libltc_cpp_test project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>libltc_cpp_test</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build libltc_cpp_test</string>
+			<key>timeStartedRecording</key>
+			<real>681597225.65925598</real>
+			<key>timeStoppedRecording</key>
+			<real>681597226.20843196</real>
+			<key>title</key>
+			<string>Build libltc_cpp_test</string>
+			<key>uniqueIdentifier</key>
+			<string>5EB6787F-B819-4D4A-B56D-EF1859753D51</string>
+		</dict>
+		<key>6BF52ABD-EA74-4576-8145-CF2DDF8EF90B</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>6BF52ABD-EA74-4576-8145-CF2DDF8EF90B.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>libltc_cpp_test project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>libltc_cpp_test</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build libltc_cpp_test</string>
+			<key>timeStartedRecording</key>
+			<real>681597298.62099302</real>
+			<key>timeStoppedRecording</key>
+			<real>681597299.19428802</real>
+			<key>title</key>
+			<string>Build libltc_cpp_test</string>
+			<key>uniqueIdentifier</key>
+			<string>6BF52ABD-EA74-4576-8145-CF2DDF8EF90B</string>
+		</dict>
+		<key>78238515-7FDC-410F-9094-B481447F40E2</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>78238515-7FDC-410F-9094-B481447F40E2.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>libltc_cpp_test project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>libltc_cpp_test</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build libltc_cpp_test</string>
+			<key>timeStartedRecording</key>
+			<real>681597735.03584802</real>
+			<key>timeStoppedRecording</key>
+			<real>681597735.61492097</real>
+			<key>title</key>
+			<string>Build libltc_cpp_test</string>
+			<key>uniqueIdentifier</key>
+			<string>78238515-7FDC-410F-9094-B481447F40E2</string>
+		</dict>
+		<key>938BDBF8-C5D2-43AD-AB13-8A4C23EDE022</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>938BDBF8-C5D2-43AD-AB13-8A4C23EDE022.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>libltc_cpp_test project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>libltc_cpp_test</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Clean libltc_cpp_test</string>
+			<key>timeStartedRecording</key>
+			<real>681597224.07453895</real>
+			<key>timeStoppedRecording</key>
+			<real>681597224.12497103</real>
+			<key>title</key>
+			<string>Clean libltc_cpp_test</string>
+			<key>uniqueIdentifier</key>
+			<string>938BDBF8-C5D2-43AD-AB13-8A4C23EDE022</string>
+		</dict>
+		<key>A1A382B9-30DC-4C24-93EC-024F19DC99F4</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>A1A382B9-30DC-4C24-93EC-024F19DC99F4.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>libltc_cpp_test project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>libltc_cpp_test</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build libltc_cpp_test</string>
+			<key>timeStartedRecording</key>
+			<real>681597256.97213697</real>
+			<key>timeStoppedRecording</key>
+			<real>681597257.56603503</real>
+			<key>title</key>
+			<string>Build libltc_cpp_test</string>
+			<key>uniqueIdentifier</key>
+			<string>A1A382B9-30DC-4C24-93EC-024F19DC99F4</string>
+		</dict>
+		<key>A2DD37D4-AC8D-41CE-AB77-78899A97A483</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>A2DD37D4-AC8D-41CE-AB77-78899A97A483.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>libltc_cpp_test project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>libltc_cpp_test</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build libltc_cpp_test</string>
+			<key>timeStartedRecording</key>
+			<real>681597459.49486005</real>
+			<key>timeStoppedRecording</key>
+			<real>681597460.04611504</real>
+			<key>title</key>
+			<string>Build libltc_cpp_test</string>
+			<key>uniqueIdentifier</key>
+			<string>A2DD37D4-AC8D-41CE-AB77-78899A97A483</string>
+		</dict>
+		<key>AF721CF9-FA20-4AA3-A860-AB5EC96CDA42</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>AF721CF9-FA20-4AA3-A860-AB5EC96CDA42.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>libltc_cpp_test project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>libltc_cpp_test</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build libltc_cpp_test</string>
+			<key>timeStartedRecording</key>
+			<real>681597564.08258796</real>
+			<key>timeStoppedRecording</key>
+			<real>681597564.66961396</real>
+			<key>title</key>
+			<string>Build libltc_cpp_test</string>
+			<key>uniqueIdentifier</key>
+			<string>AF721CF9-FA20-4AA3-A860-AB5EC96CDA42</string>
+		</dict>
+		<key>B639EB67-5FD5-4375-AD1B-5689C7898503</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>B639EB67-5FD5-4375-AD1B-5689C7898503.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>libltc_cpp_test project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>libltc_cpp_test</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build libltc_cpp_test</string>
+			<key>timeStartedRecording</key>
+			<real>681596156.08142805</real>
+			<key>timeStoppedRecording</key>
+			<real>681596156.67017305</real>
+			<key>title</key>
+			<string>Build libltc_cpp_test</string>
+			<key>uniqueIdentifier</key>
+			<string>B639EB67-5FD5-4375-AD1B-5689C7898503</string>
+		</dict>
+		<key>BA4A428F-49E2-4967-A9AC-A97A190FC5FB</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>BA4A428F-49E2-4967-A9AC-A97A190FC5FB.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>libltc_cpp_test project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>libltc_cpp_test</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build libltc_cpp_test</string>
+			<key>timeStartedRecording</key>
+			<real>681596244.61328804</real>
+			<key>timeStoppedRecording</key>
+			<real>681596245.18102896</real>
+			<key>title</key>
+			<string>Build libltc_cpp_test</string>
+			<key>uniqueIdentifier</key>
+			<string>BA4A428F-49E2-4967-A9AC-A97A190FC5FB</string>
+		</dict>
+		<key>BDC7AB8E-A78F-4DD9-9EBA-B2B934022F7C</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>BDC7AB8E-A78F-4DD9-9EBA-B2B934022F7C.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>libltc_cpp_test project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>libltc_cpp_test</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build libltc_cpp_test</string>
+			<key>timeStartedRecording</key>
+			<real>681596110.40207195</real>
+			<key>timeStoppedRecording</key>
+			<real>681596110.89768398</real>
+			<key>title</key>
+			<string>Build libltc_cpp_test</string>
+			<key>uniqueIdentifier</key>
+			<string>BDC7AB8E-A78F-4DD9-9EBA-B2B934022F7C</string>
+		</dict>
+		<key>C237A540-DB55-48EB-BB2C-E35982A4C741</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>C237A540-DB55-48EB-BB2C-E35982A4C741.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>libltc_cpp_test project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>libltc_cpp_test</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build libltc_cpp_test</string>
+			<key>timeStartedRecording</key>
+			<real>681593103.37780297</real>
+			<key>timeStoppedRecording</key>
+			<real>681593103.909639</real>
+			<key>title</key>
+			<string>Build libltc_cpp_test</string>
+			<key>uniqueIdentifier</key>
+			<string>C237A540-DB55-48EB-BB2C-E35982A4C741</string>
+		</dict>
+		<key>D1143639-5404-4461-B352-280AF1D70507</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>D1143639-5404-4461-B352-280AF1D70507.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>libltc_cpp_test project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>libltc_cpp_test</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Clean libltc_cpp_test</string>
+			<key>timeStartedRecording</key>
+			<real>681597562.74149203</real>
+			<key>timeStoppedRecording</key>
+			<real>681597562.78039002</real>
+			<key>title</key>
+			<string>Clean libltc_cpp_test</string>
+			<key>uniqueIdentifier</key>
+			<string>D1143639-5404-4461-B352-280AF1D70507</string>
+		</dict>
+		<key>DA28D7D0-A8C6-4591-9D93-D22AA7F091EB</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>DA28D7D0-A8C6-4591-9D93-D22AA7F091EB.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>libltc_cpp_test project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>libltc_cpp_test</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Clean libltc_cpp_test</string>
+			<key>timeStartedRecording</key>
+			<real>681597733.36378098</real>
+			<key>timeStoppedRecording</key>
+			<real>681597733.38579404</real>
+			<key>title</key>
+			<string>Clean libltc_cpp_test</string>
+			<key>uniqueIdentifier</key>
+			<string>DA28D7D0-A8C6-4591-9D93-D22AA7F091EB</string>
+		</dict>
+		<key>EFEF2CD8-7824-47CA-B4AB-43AD2934E0B0</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>EFEF2CD8-7824-47CA-B4AB-43AD2934E0B0.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>libltc_cpp_test project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>libltc_cpp_test</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build libltc_cpp_test</string>
+			<key>timeStartedRecording</key>
+			<real>681597647.31601298</real>
+			<key>timeStoppedRecording</key>
+			<real>681597647.89501595</real>
+			<key>title</key>
+			<string>Build libltc_cpp_test</string>
+			<key>uniqueIdentifier</key>
+			<string>EFEF2CD8-7824-47CA-B4AB-43AD2934E0B0</string>
+		</dict>
+		<key>F570ABDC-FFE8-456C-8153-BD46DBE910EC</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>F570ABDC-FFE8-456C-8153-BD46DBE910EC.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>libltc_cpp_test project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>libltc_cpp_test</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build libltc_cpp_test</string>
+			<key>timeStartedRecording</key>
+			<real>681596215.32101405</real>
+			<key>timeStoppedRecording</key>
+			<real>681596215.87812495</real>
+			<key>title</key>
+			<string>Build libltc_cpp_test</string>
+			<key>uniqueIdentifier</key>
+			<string>F570ABDC-FFE8-456C-8153-BD46DBE910EC</string>
 		</dict>
 	</dict>
 </dict>
