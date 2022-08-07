@@ -28,8 +28,6 @@ public:
             {
                 mostRecentBits <<= 1;
                 mostRecentBits[0] = *bit;
-                
-                std::cout << mostRecentBits << std::endl;
             }
             
             bool success = true;

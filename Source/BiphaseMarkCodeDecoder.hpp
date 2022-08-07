@@ -34,6 +34,7 @@ public:
             else if(currentPhaseLength + lastPhaseLength == minSamplesPerBit || currentPhaseLength + lastPhaseLength == maxSamplesPerBit)
             {
                 returnVal = true;
+                currentPhaseLength = 0;
             }
             
             lastPhaseLength = currentPhaseLength;

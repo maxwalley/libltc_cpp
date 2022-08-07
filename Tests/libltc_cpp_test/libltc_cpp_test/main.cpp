@@ -44,7 +44,7 @@ int main(int argc, const char** argv)
         }
     }
     
-    /*float sampleRate = 44100.0;
+    /*float sampleRate = 48000.0;
     int frameRate = 25;
     int maxSamplesPerBit = std::ceil(sampleRate / (80 * frameRate));
     int minSamplesPerBit = std::floor(sampleRate / (80 * frameRate));
@@ -68,11 +68,12 @@ int main(int argc, const char** argv)
             {
                 if(phaseLength == maxSamplesPerBit || phaseLength == minSamplesPerBit)
                 {
-                    std::cout << phaseLength << std::endl;
+                    std::cout << "0";
                 }
                 else if(phaseLength + lastPhaseLength == maxSamplesPerBit || phaseLength + lastPhaseLength == minSamplesPerBit)
                 {
-                    std::cout << phaseLength + lastPhaseLength << std::endl;
+                    std::cout << "1";
+                    phaseLength = 0;
                 }
                 else
                 {
@@ -88,8 +89,6 @@ int main(int argc, const char** argv)
         
         ++phaseLength;
     }*/
-    
-    
     
     return 0;
 }
