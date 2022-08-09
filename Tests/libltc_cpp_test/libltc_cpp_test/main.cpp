@@ -38,9 +38,14 @@ int main(int argc, const char** argv)
         
         std::copy(audioFile.samples[0].cbegin() + startSample, audioFile.samples[0].cbegin() + endSample, buffer.begin());
         
-        if(decoder.decode(buffer.data(), bufferSize))
+        if(uint numFrames = decoder.decode(buffer.data(), bufferSize); numFrames > 0)
         {
-            std::cout << "Frame" << std::endl;
+            const std::deque<LTCFrame>& frames = decoder.getLastFrames();
+            
+            std::for_each(frames.cbegin() + frames.size() - numFrames, frames.cend(), [](const LTCFrame& frame)
+            {
+                std::cout << frame.hours.count() << ":" << frame.minutes.count() << ":" << frame.seconds.count() << "." << (int)frame.frameNumber << std::endl;
+            });
         }
     }
     

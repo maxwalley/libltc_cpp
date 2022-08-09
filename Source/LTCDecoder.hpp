@@ -10,19 +10,21 @@
 #include "LTCFrame.hpp"
 #include <cmath>
 #include <iostream>
+#include <deque>
 #include "BiphaseMarkCodeDecoder.hpp"
 
 class LTCDecoder
 {
 public:
-    LTCDecoder(double sampleRate, uint8_t frameRate);
+    LTCDecoder(double sampleRate, uint8_t frameRate, int numFramesToStore = 10);
     
+    //Returns how many frames it found
     template<typename SampleType>
-    bool decode(const SampleType* audio, uint64_t numSamples)
+    uint decode(const SampleType* audio, uint64_t numSamples)
     {
-        bool wasSuccess = false;
+        uint numFoundFrames = 0;
         
-        std::for_each(audio, audio + numSamples, [this, &wasSuccess](SampleType sample)
+        std::for_each(audio, audio + numSamples, [this, &numFoundFrames](SampleType sample)
         {
             if(const auto bit = biphaseDecoder.decode(sample); bit)
             {
@@ -49,18 +51,31 @@ public:
             
             if(success)
             {
-                wasSuccess = true;
+                ++numFoundFrames;
+                mostRecentFrames.pop_front();
+                mostRecentFrames.push_back(createFrameFromCurrentBits());
+                mostRecentBits.reset();
             }
         });
         
-        return wasSuccess;
+        return numFoundFrames;
+    }
+    
+    const std::deque<LTCFrame>& getLastFrames() const
+    {
+        return mostRecentFrames;
     }
     
 private:
+    LTCFrame createFrameFromCurrentBits() const;
+    uint8_t decodeBCD(uint8_t startBitIndex, uint8_t numBitsToRead, bool tens = false) const;
+    
     static constexpr uint8_t syncWordSize = 16;
     static constexpr std::bitset<syncWordSize> syncWord = 0x3FFD;
     
     BiphaseMarkCodeDecoder biphaseDecoder;
     
     std::bitset<80> mostRecentBits;
+    
+    std::deque<LTCFrame> mostRecentFrames;
 };
