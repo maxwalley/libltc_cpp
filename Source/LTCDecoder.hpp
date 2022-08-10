@@ -13,10 +13,13 @@
 #include <deque>
 #include "BiphaseMarkCodeDecoder.hpp"
 
-class LTCDecoder
+namespace LTC
+{
+
+class Decoder
 {
 public:
-    LTCDecoder(double sampleRate, uint8_t frameRate, int numFramesToStore = 10);
+    Decoder(double sampleRate, uint8_t frameRate, int numFramesToStore = 10);
     
     //Returns how many frames it found
     template<typename SampleType>
@@ -61,13 +64,13 @@ public:
         return numFoundFrames;
     }
     
-    const std::deque<LTCFrame>& getLastFrames() const
+    const std::deque<Frame>& getLastFrames() const
     {
         return mostRecentFrames;
     }
     
 private:
-    LTCFrame createFrameFromCurrentBits() const;
+    Frame createFrameFromCurrentBits() const;
     uint8_t decodeBCD(uint8_t startBitIndex, uint8_t numBitsToRead, bool tens = false) const;
     
     static constexpr uint8_t syncWordSize = 16;
@@ -77,5 +80,7 @@ private:
     
     std::bitset<80> mostRecentBits;
     
-    std::deque<LTCFrame> mostRecentFrames;
+    std::deque<Frame> mostRecentFrames;
 };
+
+}

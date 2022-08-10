@@ -11,7 +11,10 @@
 #include <bitset>
 #include <chrono>
 
-struct LTCFrame
+namespace LTC
+{
+
+struct Frame
 {
     std::array<std::bitset<4>, 8> userBits;
     
@@ -20,3 +23,4 @@ struct LTCFrame
     std::chrono::minutes minutes;
     std::chrono::hours hours;
 };
+}

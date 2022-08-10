@@ -7,14 +7,17 @@
 
 #include "LTCDecoder.hpp"
 
-LTCDecoder::LTCDecoder(double sampleRate, uint8_t frameRate, int numFramesToStore)  : biphaseDecoder(sampleRate, frameRate)
+namespace LTC
+{
+
+Decoder::Decoder(double sampleRate, uint8_t frameRate, int numFramesToStore)  : biphaseDecoder(sampleRate, frameRate)
 {
     mostRecentFrames.resize(numFramesToStore);
 }
 
-LTCFrame LTCDecoder::createFrameFromCurrentBits() const
+Frame Decoder::createFrameFromCurrentBits() const
 {
-    LTCFrame newFrame;
+    Frame newFrame;
     
     newFrame.frameNumber = decodeBCD(0, 4) + decodeBCD(8, 2, true);
     
@@ -41,7 +44,7 @@ LTCFrame LTCDecoder::createFrameFromCurrentBits() const
     return newFrame;
 }
 
-uint8_t LTCDecoder::decodeBCD(uint8_t startBitIndex, uint8_t numBitsToRead, bool tens) const
+uint8_t Decoder::decodeBCD(uint8_t startBitIndex, uint8_t numBitsToRead, bool tens) const
 {
     assert(startBitIndex >= 0 && startBitIndex + numBitsToRead < mostRecentBits.size());
     
@@ -57,4 +60,6 @@ uint8_t LTCDecoder::decodeBCD(uint8_t startBitIndex, uint8_t numBitsToRead, bool
     }
     
     return tens ? decodedVal * 10 : decodedVal;
+}
+
 }

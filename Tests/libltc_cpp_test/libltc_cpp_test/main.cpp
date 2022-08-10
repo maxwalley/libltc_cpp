@@ -30,7 +30,7 @@ int main(int argc, const char** argv)
     constexpr int bufferSize = 1024;
     std::array<float, bufferSize> buffer;
     
-    LTCDecoder decoder(48000.0, 25);
+    LTC::Decoder decoder(48000.0, 30);
     
     for(uint64_t startSample = 0; startSample + bufferSize < numSamples; startSample += bufferSize)
     {
@@ -40,9 +40,9 @@ int main(int argc, const char** argv)
         
         if(uint numFrames = decoder.decode(buffer.data(), bufferSize); numFrames > 0)
         {
-            const std::deque<LTCFrame>& frames = decoder.getLastFrames();
+            const std::deque<LTC::Frame>& frames = decoder.getLastFrames();
             
-            std::for_each(frames.cbegin() + frames.size() - numFrames, frames.cend(), [](const LTCFrame& frame)
+            std::for_each(frames.cbegin() + frames.size() - numFrames, frames.cend(), [](const LTC::Frame& frame)
             {
                 std::cout << frame.hours.count() << ":" << frame.minutes.count() << ":" << frame.seconds.count() << "." << (int)frame.frameNumber << std::endl;
             });
