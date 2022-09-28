@@ -11,9 +11,9 @@
 
 int main(int argc, const char** argv)
 {
-    if(argc < 2)
+    if(argc != 3)
     {
-        std::cout << "Please provide a path to test audio file as an argument" << std::endl;
+        std::cout << "Please provide arguments in the format: AudioFile Framerate" << std::endl;
         return 1;
     }
     
@@ -27,10 +27,22 @@ int main(int argc, const char** argv)
         return 1;
     }
     
+    double frameRate;
+    
+    try
+    {
+        frameRate = std::stod(argv[2]);
+    }
+    catch(const std::exception& e)
+    {
+        std::cout << "Error: cannot read framerate argument, Please provide arguments in the format: AudioFile Framerate" << std::endl;
+        return 2;
+    }
+    
     constexpr int bufferSize = 1024;
     std::array<float, bufferSize> buffer;
     
-    LTC::Decoder decoder(44100.0, 29.97);
+    LTC::Decoder decoder(audioFile.getSampleRate(), 29.97);
     
     for(uint64_t startSample = 0; startSample + bufferSize < numSamples; startSample += bufferSize)
     {
