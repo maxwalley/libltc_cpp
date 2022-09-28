@@ -7,7 +7,7 @@
 
 #include "BiphaseMarkCodeDecoder.hpp"
 
-BiphaseMarkCodeDecoder::BiphaseMarkCodeDecoder(double sampleRate, uint8_t frameRate)  : minSamplesPerBit(std::floor(sampleRate / (frameRate * 80))), maxSamplesPerBit(std::ceil(sampleRate / (frameRate * 80)))
+BiphaseMarkCodeDecoder::BiphaseMarkCodeDecoder(double sampleRate, double frameRate)  : minSamplesPerBit(std::floor(sampleRate / (frameRate * 80))), maxSamplesPerBit(std::ceil(sampleRate / (frameRate * 80)))
 {
     
 }

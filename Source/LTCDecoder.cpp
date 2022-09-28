@@ -10,7 +10,7 @@
 namespace LTC
 {
 
-Decoder::Decoder(double sampleRate, uint8_t frameRate, int numFramesToStore)  : biphaseDecoder(sampleRate, frameRate)
+Decoder::Decoder(double sampleRate, double frameRate, int numFramesToStore)  : biphaseDecoder(sampleRate, frameRate)
 {
     mostRecentFrames.resize(numFramesToStore);
 }
@@ -40,6 +40,8 @@ Frame Decoder::createFrameFromCurrentBits() const
         
         userBitFieldStartBit += 8;
     });
+    
+    newFrame.isDropFrame = mostRecentBits[79 - 10];
     
     return newFrame;
 }

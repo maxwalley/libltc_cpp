@@ -52,7 +52,7 @@
       </BuildableProductRunnable>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "/Users/maxwalley/Documents/Personal_Projects/libltc_cpp/Tests/Test_Audio/LTC_12000000_1mins_25fps_48000x16.wav"
+            argument = "/Users/maxwalley/Documents/Personal_Projects/libltc_cpp/Tests/Test_Audio/LTC_01000000_1mins_2997_ndffps_44100x8.wav"
             isEnabled = "YES">
          </CommandLineArgument>
       </CommandLineArguments>

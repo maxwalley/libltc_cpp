@@ -19,7 +19,7 @@ namespace LTC
 class Decoder
 {
 public:
-    Decoder(double sampleRate, uint8_t frameRate, int numFramesToStore = 10);
+    Decoder(double sampleRate, double frameRate, int numFramesToStore = 10);
     
     //Returns how many frames it found
     template<typename SampleType>

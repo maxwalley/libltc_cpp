@@ -22,5 +22,7 @@ struct Frame
     std::chrono::seconds seconds;
     std::chrono::minutes minutes;
     std::chrono::hours hours;
+    
+    bool isDropFrame;
 };
 }

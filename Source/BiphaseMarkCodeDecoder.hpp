@@ -15,7 +15,7 @@
 class BiphaseMarkCodeDecoder
 {
 public:
-    BiphaseMarkCodeDecoder(double sampleRate, uint8_t frameRate);
+    BiphaseMarkCodeDecoder(double sampleRate, double frameRate);
     
     //Pass this a sample and if it detects a bit it will return it
     template<typename SampleType>

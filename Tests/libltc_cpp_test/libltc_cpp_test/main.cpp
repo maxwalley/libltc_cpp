@@ -30,7 +30,7 @@ int main(int argc, const char** argv)
     constexpr int bufferSize = 1024;
     std::array<float, bufferSize> buffer;
     
-    LTC::Decoder decoder(48000.0, 30);
+    LTC::Decoder decoder(44100.0, 29.97);
     
     for(uint64_t startSample = 0; startSample + bufferSize < numSamples; startSample += bufferSize)
     {
@@ -45,55 +45,11 @@ int main(int argc, const char** argv)
             std::for_each(frames.cbegin() + frames.size() - numFrames, frames.cend(), [](const LTC::Frame& frame)
             {
                 std::cout << frame.hours.count() << ":" << frame.minutes.count() << ":" << frame.seconds.count() << "." << (int)frame.frameNumber << std::endl;
+                
+                std::cout << std::boolalpha << frame.isDropFrame << std::endl;
             });
         }
     }
-    
-    /*float sampleRate = 48000.0;
-    int frameRate = 25;
-    int maxSamplesPerBit = std::ceil(sampleRate / (80 * frameRate));
-    int minSamplesPerBit = std::floor(sampleRate / (80 * frameRate));
-    
-    bool currentPhase = false;
-    uint64_t phaseLength = 0;
-    uint64_t lastPhaseLength = 0;
-    
-    for(int sampleIndex = 0; sampleIndex < numSamples; ++sampleIndex)
-    {
-        const float currentSample = audioFile.samples[0][sampleIndex];
-        const bool samplePhase = currentSample >= 0.0f;
-        
-        if(sampleIndex == 0)
-        {
-            currentPhase = samplePhase;
-        }
-        else
-        {
-            if(samplePhase != currentPhase)
-            {
-                if(phaseLength == maxSamplesPerBit || phaseLength == minSamplesPerBit)
-                {
-                    std::cout << "0";
-                }
-                else if(phaseLength + lastPhaseLength == maxSamplesPerBit || phaseLength + lastPhaseLength == minSamplesPerBit)
-                {
-                    std::cout << "1";
-                    phaseLength = 0;
-                }
-                else
-                {
-                    //std::cout << "Bad" << std::endl;
-                    //assert(false);
-                }
-                
-                currentPhase = samplePhase;
-                lastPhaseLength = phaseLength;
-                phaseLength = 0;
-            }
-        }
-        
-        ++phaseLength;
-    }*/
     
     return 0;
 }
