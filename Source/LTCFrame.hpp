@@ -23,6 +23,7 @@ struct Frame
     std::chrono::minutes minutes;
     std::chrono::hours hours;
     
-    bool isDropFrame;
+    bool dropFrameFlag;
+    bool colourFrameFlag;
 };
 }

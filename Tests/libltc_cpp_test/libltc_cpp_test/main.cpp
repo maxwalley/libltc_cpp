@@ -45,8 +45,6 @@ int main(int argc, const char** argv)
             std::for_each(frames.cbegin() + frames.size() - numFrames, frames.cend(), [](const LTC::Frame& frame)
             {
                 std::cout << frame.hours.count() << ":" << frame.minutes.count() << ":" << frame.seconds.count() << "." << (int)frame.frameNumber << std::endl;
-                
-                std::cout << std::boolalpha << frame.isDropFrame << std::endl;
             });
         }
     }

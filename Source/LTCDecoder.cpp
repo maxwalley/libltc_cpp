@@ -41,7 +41,8 @@ Frame Decoder::createFrameFromCurrentBits() const
         userBitFieldStartBit += 8;
     });
     
-    newFrame.isDropFrame = mostRecentBits[79 - 10];
+    newFrame.dropFrameFlag = mostRecentBits[79 - 10];
+    newFrame.colourFrameFlag = mostRecentBits[79 - 11];
     
     return newFrame;
 }
