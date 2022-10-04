@@ -29,39 +29,50 @@ public:
         
         std::for_each(audio, audio + numSamples, [this, &numFoundFrames](SampleType sample)
         {
-            if(const auto bit = biphaseDecoder.decode(sample); bit)
-            {
-                mostRecentBits <<= 1;
-                mostRecentBits[0] = *bit;
-            }
-            
-            bool success = true;
-            for(uint8_t bitNumber = 64; bitNumber < 80; ++bitNumber)
-            {
-                bool syncValue = true;
-                
-                if(bitNumber == 64 || bitNumber == 65 || bitNumber == 78)
-                {
-                    syncValue = false;
-                }
-                
-                if(mostRecentBits[79 - bitNumber] != syncValue)
-                {
-                    success = false;
-                    break;
-                }
-            }
-            
-            if(success)
+            if(decode(sample))
             {
                 ++numFoundFrames;
-                mostRecentFrames.pop_front();
-                mostRecentFrames.push_back(createFrameFromCurrentBits());
-                mostRecentBits.reset();
             }
         });
         
         return numFoundFrames;
+    }
+    
+    //Returns if a frame has been extracted
+    template<typename SampleType>
+    bool decode(SampleType sample)
+    {
+        if(const auto bit = biphaseDecoder.decode(sample); bit)
+        {
+            mostRecentBits <<= 1;
+            mostRecentBits[0] = *bit;
+        }
+        
+        bool success = true;
+        for(uint8_t bitNumber = 64; bitNumber < 80; ++bitNumber)
+        {
+            bool syncValue = true;
+            
+            if(bitNumber == 64 || bitNumber == 65 || bitNumber == 78)
+            {
+                syncValue = false;
+            }
+            
+            if(mostRecentBits[79 - bitNumber] != syncValue)
+            {
+                success = false;
+                break;
+            }
+        }
+        
+        if(success)
+        {
+            mostRecentFrames.pop_front();
+            mostRecentFrames.push_back(createFrameFromCurrentBits());
+            mostRecentBits.reset();
+        }
+        
+        return success;
     }
     
     const std::deque<Frame>& getLastFrames() const
