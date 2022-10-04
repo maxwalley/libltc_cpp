@@ -42,7 +42,7 @@ int main(int argc, const char** argv)
     constexpr int bufferSize = 1024;
     std::array<float, bufferSize> buffer;
     
-    LTC::Decoder decoder(audioFile.getSampleRate(), 29.97);
+    LTC::Decoder decoder(audioFile.getSampleRate(), frameRate);
     
     for(uint64_t startSample = 0; startSample + bufferSize < numSamples; startSample += bufferSize)
     {
