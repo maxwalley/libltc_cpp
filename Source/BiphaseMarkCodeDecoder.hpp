@@ -11,6 +11,7 @@
 #include <optional>
 #include <cmath>
 #include <iostream>
+#include <cassert>
 
 class BiphaseMarkCodeDecoder
 {
