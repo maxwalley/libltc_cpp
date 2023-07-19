@@ -2,13 +2,15 @@ cmake_minimum_required(VERSION 3.0)
 project(libltc_cpp VERSION 0.2.0 LANGUAGES CXX)
 
 add_library(ltc_cpp SHARED
-    Source/LTCDecoder.cpp
-    Source/BiphaseMarkCodeDecoder.cpp
+    src/LTCDecoder.cpp
+    src/BiphaseMarkCodeDecoder.cpp
 
-    Source/LTCDecoder.hpp
-    Source/BiphaseMarkCodeDecoder.hpp
-    Source/LTCFrame.hpp
+    include/LTCDecoder.hpp
+    include/BiphaseMarkCodeDecoder.hpp
+    include/LTCFrame.hpp
 )
+
+target_include_directories(ltc_cpp PUBLIC include)
 
 set_target_properties(ltc_cpp PROPERTIES 
     CXX_STANDARD 17 
