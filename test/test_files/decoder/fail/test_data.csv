@@ -1,0 +1,9 @@
+filename,samplerate,framerate,hours,minutes,seconds,frames,num_frames
+broken_sync_word_1,48000,25,0,0,0,0,1
+broken_sync_word_2,48000,25,0,0,0,0,1
+broken_sync_word_3,48000,25,0,0,0,0,1
+broken_sync_word_4,48000,25,0,0,0,0,1
+impossible_time_1,48000,25,0,0,0,27,1
+impossible_time_2,44100,24,28,1,45,20,5
+impossible_time_3,96000,29.97,16,61,61,17,10
+impossible_time_4,88200,30,3,15,5,60,1
