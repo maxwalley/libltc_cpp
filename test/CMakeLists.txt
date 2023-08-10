@@ -2,12 +2,20 @@
 set(BUILD_GMOCK OFF CACHE BOOL "" FORCE)
 add_subdirectory(googletest)
 
-add_executable(tests test_test.cpp)
+add_executable(tests
+    src/main.cpp
+    src/DecoderTests.cpp
 
-target_link_libraries(
-    tests
-    GTest::gtest_main
+    include/TestState.h
 )
 
-include(GoogleTest)
-gtest_discover_tests(tests)
+target_include_directories(tests PUBLIC include)
+
+target_link_libraries(tests
+    gtest
+)
+
+include(googletest)
+gtest_discover_tests(tests
+    EXTRA_ARGS ${CMAKE_SOURCE_DIR}/test_files
+)
