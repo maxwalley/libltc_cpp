@@ -1,3 +1,3 @@
 #include <filesystem>
 
-extern std::__fs::filesystem::path testFilesDirectory;
+extern std::__fs::filesystem::path testFilesParentDirectory;

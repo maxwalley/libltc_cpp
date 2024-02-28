@@ -17,5 +17,5 @@ target_link_libraries(tests
 
 include(googletest)
 gtest_discover_tests(tests
-    EXTRA_ARGS ${CMAKE_SOURCE_DIR}/test_files
+    EXTRA_ARGS ${CMAKE_SOURCE_DIR}/test/test_files
 )

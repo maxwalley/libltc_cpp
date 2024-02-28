@@ -4,8 +4,24 @@
 //Test that a single valid frame decodes correctly
 TEST(DecoderTests, DecodesValidSingleFrame)
 {
-    std::cout << testFilesDirectory << std::endl;
+    const std::__fs::filesystem::path testDataDir = testFilesParentDirectory / "decoder/decodes_single_valid_frame";
+    const std::__fs::filesystem::directory_entry keyFile(testDataDir / "key.csv");
 
+    ASSERT_TRUE(keyFile.exists());
+
+    int numTestFilesFound = 0;
+
+    for(const std::__fs::filesystem::directory_entry& child_file : std::__fs::filesystem::directory_iterator{testDataDir})
+    {
+        if(child_file.path().extension() == ".pcm")
+        {
+            numTestFilesFound++;
+        }
+    }
+
+    std::cout << "Found " << numTestFilesFound << " test files" << std::endl;
+
+    ASSERT_GT(numTestFilesFound, 0);
     ASSERT_EQ(4, 5);
 }
 

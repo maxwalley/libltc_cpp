@@ -1,7 +1,7 @@
 #include "gtest/gtest.h"
 #include "TestState.h"
 
-std::__fs::filesystem::path testFilesDirectory;
+std::__fs::filesystem::path testFilesParentDirectory;
 
 int main(int argc, char* argv[])
 {
@@ -9,7 +9,7 @@ int main(int argc, char* argv[])
 
     if(argc == 2)
     {
-        testFilesDirectory = argv[1];
+        testFilesParentDirectory = argv[1];
     }
     
     return RUN_ALL_TESTS();
