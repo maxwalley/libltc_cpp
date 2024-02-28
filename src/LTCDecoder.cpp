@@ -20,15 +20,9 @@ Frame Decoder::createFrameFromCurrentBits() const
     Frame newFrame;
     
     newFrame.frameNumber = decodeBCD(0, 4) + decodeBCD(8, 2, true);
-    
-    uint8_t numSeconds = decodeBCD(16, 4) + decodeBCD(24, 3, true);
-    newFrame.seconds = std::chrono::seconds(numSeconds);
-    
-    uint8_t numMinutes = decodeBCD(32, 4) + decodeBCD(40, 3, true);
-    newFrame.minutes = std::chrono::minutes(numMinutes);
-    
-    uint8_t numHours = decodeBCD(48, 4) + decodeBCD(56, 2, true);
-    newFrame.hours = std::chrono::hours(numHours);
+    newFrame.seconds = decodeBCD(16, 4) + decodeBCD(24, 3, true);
+    newFrame.minutes = decodeBCD(32, 4) + decodeBCD(40, 3, true);
+    newFrame.hours = decodeBCD(48, 4) + decodeBCD(56, 2, true);
     
     uint8_t userBitFieldStartBit = 4;
     std::for_each(newFrame.userBits.begin(), newFrame.userBits.end(), [&userBitFieldStartBit, this](auto& userBits)

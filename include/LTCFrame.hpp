@@ -9,7 +9,6 @@
 
 #include <array>
 #include <bitset>
-#include <chrono>
 
 namespace LTC
 {
@@ -19,9 +18,9 @@ struct Frame
     std::array<std::bitset<4>, 8> userBits;
     
     uint8_t frameNumber;
-    std::chrono::seconds seconds;
-    std::chrono::minutes minutes;
-    std::chrono::hours hours;
+    uint8_t seconds;
+    uint8_t minutes;
+    uint8_t hours;
     
     bool dropFrameFlag;
     bool colourFrameFlag;
