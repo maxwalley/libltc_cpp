@@ -15,16 +15,10 @@ TEST(DecoderTests, DecodesInvalidSingleFrame)
 
 }
 
-//Test that decoding a stream of multiple valid sequential frames performs correctly and reports no errors
+//Test that decoding a stream of multiple valid sequential frames performs correctly
 TEST(DecoderTests, DecodesValidMultiFrame)
 {
 
-}
-
-//Test that decoding a stream of multiple valid frames that are not in order reports a warning
-TEST(DecoderTests, DecodesNonSequentialMultiFrame)
-{
-    
 }
 
 //Test that decoding works at multiple sample rates
@@ -59,12 +53,6 @@ TEST(DecoderTests, DecodesUserBits)
 
 //Test that reverse frames can be correctly decoded
 TEST(DecoderTests, DecodesReverseFrames)
-{
-    
-}
-
-//Test that reverse frames not in order reports a warning
-TEST(DecoderTests, DecodesReverseFramesNonSequential)
 {
     
 }
